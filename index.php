@@ -22,11 +22,11 @@
                 </div>
                 <div class="form-grup">
                     <label for="massa">Massa:</label>
-                    <select name="massa" id="massa" class="form-control">
+                    <select name="massa" id="massa" require class="form-control">
                         <option value="">Selecione a massa</option>
                         <?php foreach($massas as $massa): ?>
                           <option value="<?= $massa["id"] ?>"><?= $massa["tipo"] ?></option>
-                        <?php endforeach; ?>
+                        <?php endforeach; ?>                        
                     </select>   
                 </div>
                 <div class="form-grup">

@@ -71,6 +71,10 @@
 
       $stmt->execute();
 
+      // Exibir mensagens de sucesso
+      $_SESSION["msg"] = "Pedido realizado com sucesso";
+      $_SESSION["status"] = "success";
+
     }
 
     // Retorna para página inicial
